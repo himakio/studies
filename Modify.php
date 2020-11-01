@@ -24,3 +24,21 @@
 					document.getElementById("livesearch").style.border="0px";
 					return;
 				}
+
+				if (window.XMLHttpRequest) 
+				{
+					xmlhttp=new XMLHttpRequest();
+				}
+
+				xmlhttp.onreadystatechange=function() 
+				{
+					if (xmlhttp.readyState==4 && xmlhttp.status==200) 
+					{
+						document.getElementById("livesearch").innerHTML=xmlhttp.responseText;
+						document.getElementById("livesearch").style.border="1px solid #A5ACB2";
+					}
+				}
+				xmlhttp.open("POST","livesearch.php?q="+str,true);
+				xmlhttp.send();
+			}
+		</script>
