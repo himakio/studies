@@ -42,3 +42,21 @@
 				xmlhttp.send();
 			}
 		</script>
+		<!--  -->
+		<!--  -->
+		<!--  -->
+		<!--  -->
+		<!--  -->
+	</head>
+	<body>
+		<div class='jumbotron'>
+			<h1>Stock Monitor and Portfolio Manager</h1>
+		</div>
+		
+		<div class='text-center'>
+			<form action='Modify.php' method='POST'>
+				<input name='var1' type='text' class='input-lg' placeholder='Stock Symbol 1' onkeyup="showResult(this.value)">
+				<input name='pri1' type='text' class='input-lg' placeholder='Price'>
+				<input name='vol1' type='text' class='input-lg' placeholder='Volume'>
+				<br>
+				<br>
