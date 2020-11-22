@@ -60,3 +60,15 @@
 				<input name='vol1' type='text' class='input-lg' placeholder='Volume'>
 				<br>
 				<br>
+				<input name='var2' type='text' class='input-lg' placeholder='Stock Symbol 2' onkeyup="showResult(this.value)">
+				<input name='pri2' type='text' class='input-lg' placeholder='Price'>
+				<input name='vol2' type='text' class='input-lg' placeholder='Volume'>
+				<br>
+				<br>
+				<input name='var3' type='text' class='input-lg' placeholder='Stock Symbol 3' onkeyup="showResult(this.value)">
+				<input name='pri3' type='text' class='input-lg' placeholder='Price'>
+				<input name='vol3' type='text' class='input-lg' placeholder='Volume'>
+				<br>
+				<br>
+				<input name='var4' type='text' class='input-lg' placeholder='Stock Symbol 4' onkeyup="showResult(this.value)">
+				<input name='pri4' type='text' class='input-lg' placeholder='Price'>
