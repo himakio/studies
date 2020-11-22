@@ -72,3 +72,26 @@
 				<br>
 				<input name='var4' type='text' class='input-lg' placeholder='Stock Symbol 4' onkeyup="showResult(this.value)">
 				<input name='pri4' type='text' class='input-lg' placeholder='Price'>
+				<input name='vol4' type='text' class='input-lg' placeholder='Volume'>
+				<br>
+				<br>
+				<input name='var5' type='text' class='input-lg' placeholder='Stock Symbol 5' onkeyup="showResult(this.value)">
+				<input name='pri5' type='text' class='input-lg' placeholder='Price'>
+				<input name='vol5' type='text' class='input-lg' placeholder='Volume'>
+				<div id="livesearch"></div>
+				<br>
+				<br>
+				<input name='Add' type='submit' class='btn btn-lg btn-success' value='Add'>
+				<input name='Delete' type='submit' class='btn btn-lg btn-danger' value='Delete'>
+				<br>
+				<br>
+			</form>
+		</div>
+	</body>
+</html>
+
+<?php
+	require_once("inc/connection.inc.php");
+	// If Add button is pressed
+	if(isset($_POST['Add']))
+	{ 
