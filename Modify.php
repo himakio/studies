@@ -95,3 +95,19 @@
 	// If Add button is pressed
 	if(isset($_POST['Add']))
 	{ 
+		// Checking whether first line is completely filled
+		if(empty($_POST['var1']) or empty($_POST['pri1']) or empty($_POST['vol1']))
+		{
+			?><h1><center>To add values please fill atleast first row completely.</center></h1><?php
+			die();
+		}
+
+		for($x=1;$x<=5;$x++)
+		{
+			$var = [];
+			$pri = [];
+			$vol = [];
+			if (!empty($_POST['var'.$x]) and !empty($_POST['pri'.$x]) and !empty($_POST['vol'.$x])) 
+			{
+				$var[$x] = $_POST['var'.$x];
+				$pri[$x] = $_POST['pri'.$x];
