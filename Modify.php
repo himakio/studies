@@ -129,3 +129,13 @@
 				{
 					?><h3><center><?php
 					echo $x.". Error adding values to table". "<br>". $sql.
+					"<br>". $conn->error;
+					?></h3><center><?php
+				}
+			}
+		}
+		mysqli_close($conn);
+	}
+
+
+	// If Delete button is pressed
