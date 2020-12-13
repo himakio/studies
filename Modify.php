@@ -165,3 +165,16 @@
 		}
 
 		// Establising Connection to Database
+		$db = 'stocks';
+
+		// Create Connection
+		$dbconn = mysqli_select_db($conn, $db);
+
+		// Check Connection
+		if(!$dbconn)
+		{
+			die('Connection to Database failed:' . mysqli_connect_error());
+		}
+
+
+		for($x=1;$x<=5;$x++)
