@@ -139,3 +139,29 @@
 
 
 	// If Delete button is pressed
+
+
+	else if(isset($_POST['Delete']))
+	{
+		// Checking wether stocks symbol (required) is given
+		if(empty($_POST['var1']))
+		{
+			?><h1><center>To delete values atleast enter the symbol of stocks to be deleted.</center></h1><?php
+			die();
+		}
+
+		// Establising Connection to SQL
+		$servername = 'localhost';
+		$username = 'root';
+		$password = 'password';
+
+		// Create Connection
+		$conn = mysqli_connect($servername, $username, $password);
+
+		// Check Connection
+		if(!$conn)
+		{
+			die('Connection to SQL failed:' . mysqli_connect_error());
+		}
+
+		// Establising Connection to Database
