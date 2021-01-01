@@ -196,3 +196,18 @@
 				if(mysqli_query($conn, $sql))
 				{
 					?><h1><center><?php
+					echo $x.". Values deleted.";
+					?></h1><center><?php
+				}
+				else
+				{
+					?><h3><center><?php
+					echo $x.". Error deleting values from table". "<br>". $sql.
+					"<br>". $conn->error;
+					?></h3><center><?php
+				}
+			}
+			
+			// Only Stock Symbol and Price to be deleted are given
+			else if (!empty($_POST['var'.$x]) and !empty($_POST['pri'.$x])) 
+			{
