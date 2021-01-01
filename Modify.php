@@ -178,3 +178,21 @@
 
 
 		for($x=1;$x<=5;$x++)
+		{
+			$var = [];
+			$pri = [];
+			$vol = [];
+			
+			// All three values to be deleted are given
+			if (!empty($_POST['var'.$x]) and !empty($_POST['pri'.$x]) and !empty($_POST['vol'.$x])) 
+			{
+				$var[$x] = $_POST['var'.$x];
+				$pri[$x] = $_POST['pri'.$x];
+				$vol[$x] = $_POST['vol'.$x];
+				$sql = "DELETE FROM portfolio 
+				WHERE stocks_symbol='$var[$x]' and price=$pri[$x] and volume=$vol[$x]";
+
+				// Check if values are deleted successfully
+				if(mysqli_query($conn, $sql))
+				{
+					?><h1><center><?php
