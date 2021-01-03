@@ -245,3 +245,25 @@
 				{
 					?><h1><center><?php
 					echo $x.". Values deleted.";
+					?></h1><center><?php
+				}
+				else
+				{
+					?><h3><center><?php
+					echo $x.". Error deleting values from table". "<br>". $sql.
+					"<br>". $conn->error;
+					?></h3><center><?php
+				}
+			}
+
+			// Only Stock Symbol to be deleted is given
+			else if (!empty($_POST['var'.$x]))
+			{
+				$var[$x] = $_POST['var'.$x];
+				$sql = "DELETE FROM portfolio 
+				WHERE stocks_symbol='$var[$x]'";
+
+				// Check if values are deleted successfully
+				if(mysqli_query($conn, $sql))
+				{
+					?><h1><center><?php
