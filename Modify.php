@@ -234,3 +234,14 @@
 
 			// Only Stock Symbol and Volume to be deleted are given
 			else if (!empty($_POST['var'.$x]) and !empty($_POST['vol'.$x]))
+			{
+				$var[$x] = $_POST['var'.$x];
+				$vol[$x] = $_POST['vol'.$x];
+				$sql = "DELETE FROM portfolio 
+				WHERE stocks_symbol='$var[$x]' and volume=$vol[$x]";
+
+				// Check if values are deleted successfully
+				if(mysqli_query($conn, $sql))
+				{
+					?><h1><center><?php
+					echo $x.". Values deleted.";
