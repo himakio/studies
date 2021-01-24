@@ -21,3 +21,16 @@
 
 
 <?php
+	require_once("inc/connection.inc.php");
+
+	// Initialising variables to store extracted information
+	$name = [];
+	$symbol = [];
+	$exchange = [];
+	$open = [];
+	$close = [];
+	$high = [];
+	$low = [];
+	$lastprice = [];
+	$y = 0;
+	$z = '';
