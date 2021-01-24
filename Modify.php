@@ -284,3 +284,13 @@
 ?>
 
 
+
+<html>
+	<div class='disclaimer'>
+		**********************
+		Copyright © 2016. All market data provided by Barchart Market Data Solutions.
+
+		BATS market data is at least 15-minutes delayed. Forex market data is at least 10-minutes delayed. AMEX, NASDAQ, NYSE and futures market data (CBOT, CME, COMEX and NYMEX) is end-of-day. Information is provided 'as is' and solely for informational purposes, not for trading purposes or advice, and is delayed. To see all exchange delays and terms of use, please see our disclaimer.
+		**********************
+	</div>
+</html>
