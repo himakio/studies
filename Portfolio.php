@@ -69,3 +69,19 @@
 	}
 
 	$z = rtrim($z,",");
+
+	// API call
+	$contents = file_get_contents("http://marketdata.websol.barchart.com/getQuote.json?key=$key&symbols=$z&mode=R");
+	$contents = json_decode($contents, true);
+
+	// Check successfull API call
+	if($contents["status"]["code"] == 200) 
+	{
+		foreach($contents['results'] as $result) 
+		{
+			array_push($name,$result['name']);
+			array_push($symbol,$result['symbol']);
+			array_push($exchange,$result['exchange']);
+			array_push($open,$result['open']);
+			array_push($close,$result['close']);
+			array_push($high,$result['high']);
