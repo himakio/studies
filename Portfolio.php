@@ -49,3 +49,23 @@
 			$sym[$y] = $row["stocks_symbol"];
 			$pri[$y] = $row["price"];
 			$vol[$y] = $row["volume"];
+			$y += 1;
+		}
+	}
+	// If database empty
+	else 
+	{
+		?><h1><center><?php
+		echo "Portfolio Empty";
+		?></h1></center><?php
+		die();
+	}
+	mysqli_close($conn);
+
+	// Adding all stocks names in one variable to enable API call
+	for($a=0;$a<$y;$a++)
+	{
+		$z = $z.$sym[$a].',';
+	}
+
+	$z = rtrim($z,",");
