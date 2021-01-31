@@ -34,3 +34,18 @@
 	$lastprice = [];
 	$y = 0;
 	$z = '';
+	$key = "93dcc722279c3a7577f248b09ef6167f";
+
+
+	// Retreiving information from database
+	$sql = "SELECT * FROM portfolio";
+	$result = mysqli_query($conn, $sql);
+
+	// Check if databse is empty
+	if (mysqli_num_rows($result) > 0) 
+	{
+		while($row = mysqli_fetch_assoc($result)) 
+		{
+			$sym[$y] = $row["stocks_symbol"];
+			$pri[$y] = $row["price"];
+			$vol[$y] = $row["volume"];
