@@ -85,3 +85,25 @@
 			array_push($open,$result['open']);
 			array_push($close,$result['close']);
 			array_push($high,$result['high']);
+			array_push($low,$result['low']);
+			array_push($lastprice,$result['lastPrice']);
+		}
+	}
+	// If API call unsuccessful
+	else 
+	{
+		?>
+		<h1><center>"Error retreiving data. Please try again later."</center></h1>
+		<?php
+		die();
+	}
+?>
+
+<!-- Generating Output in tabular format -->
+<table class='table table-responsive'>
+	<tr class='head warning'>
+		<td>Name</td>
+		<td>Symbol</td>
+		<td>Exchange</td>
+		<td>Open</td>
+		<td>Close</td>
