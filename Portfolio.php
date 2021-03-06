@@ -107,3 +107,25 @@
 		<td>Exchange</td>
 		<td>Open</td>
 		<td>Close</td>
+		<td>High</td>
+		<td>Low</td>
+		<td>Last Price</td>
+		<td>Price Bought</td>
+		<td>Volume Bought</td>
+		<td>Change Per Stock</td>
+		<td>Profit/Loss</td>
+	</tr>
+	<?php
+		for($x=0;$x<$y;$x++) 
+		{?>
+			<tr>
+				<td><?php echo $name[$x]; ?></td>
+				<td><?php echo $symbol[$x]; ?></td>
+				<td><?php echo $exchange[$x]; ?></td>
+				<td><?php echo $open[$x]; ?></td>
+				<td><?php echo $close[$x]; ?></td>
+				<td><?php echo $high[$x]; ?></td>
+				<td><?php echo $low[$x]; ?></td>
+				<td><?php echo $lastprice[$x]; ?></td>
+				<td><?php echo $pri[$x]; ?></td>
+				<td><?php echo $vol[$x]; ?></td>
