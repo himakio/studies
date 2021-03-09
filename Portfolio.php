@@ -129,3 +129,27 @@
 				<td><?php echo $lastprice[$x]; ?></td>
 				<td><?php echo $pri[$x]; ?></td>
 				<td><?php echo $vol[$x]; ?></td>
+
+				<td><?php 
+					if($pri[$x] > $lastprice[$x]) 
+					{?>
+						<i class="fa fa-arrow-down">
+						<?php echo $lastprice[$x]-$pri[$x];
+					}
+					else if($pri[$x] < $lastprice[$x]) 
+					{?>
+						</i>
+						<i class="fa fa-arrow-up">
+						<?php echo $lastprice[$x]-$pri[$x];
+						?></i><?php
+					}
+					else
+						echo '0';
+					?></td>
+				
+				<td><?php 
+					if($pri[$x] > $lastprice[$x])
+					{?>
+						<i class="fa fa-arrow-down">
+						<?php echo ($lastprice[$x]-$pri[$x]) * $vol[$x];
+					}
