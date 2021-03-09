@@ -153,3 +153,18 @@
 						<i class="fa fa-arrow-down">
 						<?php echo ($lastprice[$x]-$pri[$x]) * $vol[$x];
 					}
+					else if($pri[$x] < $lastprice[$x]) 
+					{?>
+						</i>
+						<i class="fa fa-arrow-up">
+						<?php echo ($lastprice[$x]-$pri[$x]) * $vol[$x];
+						?></i><?php
+					}
+					else
+						echo '0'; ?>
+				</td>
+			</tr>
+		<?php } ?>
+</table>
+<br>
+<br>
