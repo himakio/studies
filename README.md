@@ -1,1 +1,1 @@
-# Stock Monitor and Port
+# Stock Monitor and Portfolio Manager
