@@ -7,4 +7,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Idea**
 
-> The
+> The Idea behind this project was
