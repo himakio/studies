@@ -12,4 +12,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **How is it free ?**
 
-> The Barchart Market D
+> The Barchart Market Data Solutions API
