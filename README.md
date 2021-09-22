@@ -12,4 +12,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **How is it free ?**
 
-> The Barchart Market Data Solutions API used by me gives me 2500 free API calls per day which me
+> The Barchart Market Data Solutions API used by me gives me 2500 free API calls per day which means even if the
