@@ -18,4 +18,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Modify Page**
 
-> Here you can enter the details of 
+> Here you can enter the details of your stocks- 
