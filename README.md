@@ -18,4 +18,6 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Modify Page**
 
-> Here you can enter the details of your stocks- Stock Symbol, the Price you bought it at, the Volume you boug
+> Here you can enter the details of your stocks- Stock Symbol, the Price you bought it at, the Volume you bought.
+
+![Alt-text](/scree
