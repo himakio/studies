@@ -28,4 +28,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Portfolio Page**
 
-> Your com
+> Your complete portfolio appea
