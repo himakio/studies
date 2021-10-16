@@ -28,4 +28,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Portfolio Page**
 
-> Your complete portfolio appears here as you a
+> Your complete portfolio appears here as you add/delete stocks 
