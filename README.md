@@ -30,4 +30,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 > Your complete portfolio appears here as you add/delete stocks from Modification Page.
 
-![Alt-text
+![Alt-text](/screenshots/2
