@@ -38,4 +38,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Live Search Suggestions**
 
-> If you don't remember the stock symbol but only the name of company,
+> If you don't remember the stock symbol but only the name of company, no need to worry with l
