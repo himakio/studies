@@ -41,3 +41,9 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 > If you don't remember the stock symbol but only the name of company, no need to worry with live search suggestions where you can see the stock symbol by searching for company name (works only if the company's stock name contains company's name; i.e, work for most of companies).
 
 ![Alt-text](/screenshots/3%20Suggestion%20Feature.png)
+
+
+- - -
+
+
+* *
