@@ -48,4 +48,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Why 5 input rows ?**
 
-> 5 input rows are provided so that the user can enter or delete 5 values at a time 
+> 5 input rows are provided so that the user can enter or delete 5 values at a time making the modificat
