@@ -51,4 +51,6 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 > 5 input rows are provided so that the user can enter or delete 5 values at a time making the modification process quicker. However, the choice is entirely upto user to fill any number of rows that he/she wants to.
 
 
-* **Unlimited Data Add
+* **Unlimited Data Adding**
+
+> With the p
