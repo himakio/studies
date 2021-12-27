@@ -53,4 +53,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Unlimited Data Adding**
 
-> With the p
+> With the project connect
