@@ -53,4 +53,8 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Unlimited Data Adding**
 
-> With the project connected to MySQL database, you can enter as many entries
+> With the project connected to MySQL database, you can enter as many entries as you want to.
+
+
+
+* *
