@@ -59,4 +59,5 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 * **Deleting Values**
 
-> In this project, deleting values comes with incredible flexibil
+> In this project, deleting values comes with incredible flexibilty and ease.
+  F
