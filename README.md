@@ -61,4 +61,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 > In this project, deleting values comes with incredible flexibilty and ease.
   For deleting values, the only required field is Symbol of stock !
-  Rest all is user's choice; He/
+  Rest all is user's choice; He/She may or may not 
