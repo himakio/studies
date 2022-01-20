@@ -64,4 +64,8 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
   Rest all is user's choice; He/She may or may not fill any of the other fields.
   A demo of this process is shown in below shown images.
 
-![Alt-text](/screenshots/16%20Delete%20Demo
+![Alt-text](/screenshots/16%20Delete%20Demo%201.png)
+
+- - -
+
+![Al
