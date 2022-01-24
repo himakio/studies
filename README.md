@@ -68,4 +68,4 @@ A project created by me at NSIT Financial Hackathon in 8 hours.
 
 - - -
 
-![Al
+![Alt-text](/screenshots/18%20
