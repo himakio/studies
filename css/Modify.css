@@ -34,3 +34,14 @@ h3{
 	font-family: 'Josefin Sans', sans-serif;
 }
 .disclaimer
+{
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.buttons
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
