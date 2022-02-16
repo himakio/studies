@@ -21,3 +21,16 @@ body
 .head 
 {
 	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 23px;
+}
+
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.disclaimer
