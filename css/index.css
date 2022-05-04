@@ -11,4 +11,5 @@ body
 .jumbotron 
 {
 	background-color: #9999ff;
-	font-family: 'Josefin Sans', sans-serif
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 60
