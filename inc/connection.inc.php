@@ -1,2 +1,3 @@
 <?php
-// Establishing Connection to 
+// Establishing Connection to SQL
+$serverna
