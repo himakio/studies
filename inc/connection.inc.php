@@ -1,3 +1,3 @@
 <?php
 // Establishing Connection to SQL
-$serverna
+$servername = 'localhost';
