@@ -4,4 +4,4 @@ $servername = 'localhost';
 $username = 'root';
 $password = 'password';
 
-/
+// Create Connectio
