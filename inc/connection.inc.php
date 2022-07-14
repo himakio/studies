@@ -8,4 +8,5 @@ $password = 'password';
 $conn = mysqli_connect($servername, $username, $password);
 
 // Check Connection
-if(!$con
+if(!$conn) {
+	die('Conn
