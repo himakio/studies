@@ -9,4 +9,4 @@ $conn = mysqli_connect($servername, $username, $password);
 
 // Check Connection
 if(!$conn) {
-	die('Conn
+	die('Connection to SQL fa
