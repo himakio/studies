@@ -14,4 +14,4 @@ if(!$conn) {
 
 // Creating Database
 $sql = 'CREATE DATABASE IF NOT EXISTS stocks';
-if(mysqli_query($
+if(mysqli_query($conn, $sql))
