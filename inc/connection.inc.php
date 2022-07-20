@@ -13,4 +13,4 @@ if(!$conn) {
 }
 
 // Creating Database
-$sql = 'CREATE DA
+$sql = 'CREATE DATABASE IF NOT EXISTS
