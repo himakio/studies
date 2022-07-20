@@ -12,4 +12,5 @@ if(!$conn) {
 	die('Connection to SQL failed:' . mysqli_connect_error());
 }
 
-// Creating Da
+// Creating Database
+$sql = 'CREATE DA
