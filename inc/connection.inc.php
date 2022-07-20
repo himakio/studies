@@ -13,4 +13,5 @@ if(!$conn) {
 }
 
 // Creating Database
-$sql = 'CREATE DATABASE IF NOT EXISTS
+$sql = 'CREATE DATABASE IF NOT EXISTS stocks';
+if(m
