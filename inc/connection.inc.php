@@ -15,4 +15,8 @@ if(!$conn) {
 // Creating Database
 $sql = 'CREATE DATABASE IF NOT EXISTS stocks';
 if(mysqli_query($conn, $sql)) {} else {
-	echo "Error creating database" . mysqli_error($conn
+	echo "Error creating database" . mysqli_error($conn);
+	die();
+}
+
+// Establisi
