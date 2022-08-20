@@ -19,4 +19,4 @@ if(mysqli_query($conn, $sql)) {} else {
 	die();
 }
 
-// Establisi
+// Establising Connection
