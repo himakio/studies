@@ -19,4 +19,5 @@ if(mysqli_query($conn, $sql)) {} else {
 	die();
 }
 
-// Establising Connection
+// Establising Connection to Database
+$db = "s
