@@ -20,4 +20,6 @@ if(mysqli_query($conn, $sql)) {} else {
 }
 
 // Establising Connection to Database
-$db = "s
+$db = "stocks";
+
+// Create C
