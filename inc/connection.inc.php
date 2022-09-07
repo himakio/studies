@@ -22,4 +22,5 @@ if(mysqli_query($conn, $sql)) {} else {
 // Establising Connection to Database
 $db = "stocks";
 
-// Create C
+// Create Connection
+$dbcon
