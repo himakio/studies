@@ -23,4 +23,6 @@ if(mysqli_query($conn, $sql)) {} else {
 $db = "stocks";
 
 // Create Connection
-$dbconn = mysqli_select_db($conn, $d
+$dbconn = mysqli_select_db($conn, $db);
+
+// Chec
