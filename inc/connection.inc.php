@@ -26,4 +26,5 @@ $db = "stocks";
 $dbconn = mysqli_select_db($conn, $db);
 
 // Check Connection
-if(!$
+if(!$dbconn) {
+	di
