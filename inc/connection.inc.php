@@ -27,4 +27,4 @@ $dbconn = mysqli_select_db($conn, $db);
 
 // Check Connection
 if(!$dbconn) {
-	di
+	die('Connection to Databa
