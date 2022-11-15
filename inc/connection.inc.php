@@ -33,3 +33,4 @@ if(!$dbconn) {
 // Create Table
 $sql = "CREATE TABLE IF NOT EXISTS portfolio
 (
+	stocks_symbo
