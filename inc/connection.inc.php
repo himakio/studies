@@ -30,4 +30,5 @@ if(!$dbconn) {
 	die('Connection to Database failed:' . mysqli_connect_error());
 }
 
-// Cre
+// Create Table
+$sql = "CRE
