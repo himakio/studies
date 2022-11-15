@@ -31,4 +31,5 @@ if(!$dbconn) {
 }
 
 // Create Table
-$sql = "CREATE TABLE IF NOT
+$sql = "CREATE TABLE IF NOT EXISTS portfolio
+(
