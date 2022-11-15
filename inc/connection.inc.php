@@ -31,4 +31,4 @@ if(!$dbconn) {
 }
 
 // Create Table
-$sql = "CRE
+$sql = "CREATE TABLE IF NOT
