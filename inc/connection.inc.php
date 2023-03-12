@@ -33,4 +33,5 @@ if(!$dbconn) {
 // Create Table
 $sql = "CREATE TABLE IF NOT EXISTS portfolio
 (
-	stocks_symbol VARCHAR(30) P
+	stocks_symbol VARCHAR(30) PRIMARY KEY,
+	pr
