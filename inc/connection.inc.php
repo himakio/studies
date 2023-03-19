@@ -38,4 +38,6 @@ $sql = "CREATE TABLE IF NOT EXISTS portfolio
 	volume INT(30)
 )";
 
-if (mysqli_query($
+if (mysqli_query($conn, $sql)) {
+
+} e
