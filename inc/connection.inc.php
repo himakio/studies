@@ -35,4 +35,7 @@ $sql = "CREATE TABLE IF NOT EXISTS portfolio
 (
 	stocks_symbol VARCHAR(30) PRIMARY KEY,
 	price INT(30),
-	v
+	volume INT(30)
+)";
+
+i
