@@ -41,4 +41,4 @@ $sql = "CREATE TABLE IF NOT EXISTS portfolio
 if (mysqli_query($conn, $sql)) {
 
 } else {
-	echo "Err
+	echo "Error creating tabl
