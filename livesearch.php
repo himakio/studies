@@ -24,3 +24,18 @@ if (strlen($q)>2) {
 			$hint=$hint . "<br />".$y->item(0)->childNodes->item(0)->nodeValue;
 		}
 		}
+	}
+	}
+}
+
+// Set output to "Not valid stock symbol" if no hint was found
+// or to the correct values
+if ($hint=="" and strlen($q) > 2) {
+	$response="Not valid stock symbol";
+} else {
+	$response=$hint;
+}
+
+//output the response
+echo $response;
+?>
